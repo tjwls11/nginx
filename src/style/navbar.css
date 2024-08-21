@@ -1,0 +1,51 @@
+/* 네비게이션 바 기본 스타일 */
+.navbar {
+    background-color: #333;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* 네비게이션 링크 스타일 */
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  /* 로그아웃 버튼 스타일 */
+  .logout-button {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  .logout-button:focus {
+    outline: none;
+  }
+  

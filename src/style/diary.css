@@ -1,0 +1,68 @@
+/* Header styles */
+  h1 {
+    color: #312c25;
+  }
+  
+  .spantag {
+    color: #9ad6a8;
+  }
+  
+  h1 i {
+    margin-right: 10px;
+    color: #9ad6a8;
+  }
+  
+  .btn {
+    background-color: #9ad6a8;
+  }
+  
+  .btn:hover {
+    background-color: #529061;
+  }
+  
+  /* Table styles */
+  
+  .custom-thead {
+    background-color: #9ad6a8 !important;
+  }
+  
+  table thead.custom-thead th {
+    color: #fff !important;
+    background-color: #9ad6a8 !important;
+  }
+  
+  /* Form styles */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card styles */
+  .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    color: #31a760;
+  }
+  
+  .card-subtitle {
+    color: #6c757d;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  /* Margin adjustments */
+  .mt-5 {
+    margin-top: 3rem !important;
+  }
+  
+  .mb-5 {
+    margin-bottom: 3rem !important;
+  }

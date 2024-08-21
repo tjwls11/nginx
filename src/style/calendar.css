@@ -1,0 +1,27 @@
+.sticker-image {
+    width: 30px; /* 스티커 크기 조정 */
+    height: 30px; /* 스티커 크기 조정 */
+}
+
+.cell.selected {
+    border: 2px solid green; /* 초록색 테두리 추가 */
+}
+
+.color-sticker-picker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(179, 255, 180); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.color-picker, .sticker-picker {
+    background-color: rgb(242, 197, 233); 
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,72 @@
+
+  .navbar {
+    font-family: 'RIDIBatang', sans-serif;
+  }
+
+.addContainer {
+    background-color: rgb(113, 165, 136);
+    width: 90%;
+  }
+  
+  .titleName {
+    color: rgb(246, 244, 242);
+  }
+  
+  .addSpan {
+    color: #c3e3ca;
+  }
+  
+  .form-control {
+    text-align: center;
+  }
+  
+  .Addbtn {
+    color: rgb(21, 21, 21);
+    background-color: #9ad6a8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .Addbtn:hover {
+    color: white;
+    background-color: rgb(87, 140, 111);
+  }
+  
+  .formdiv {
+    margin-top: 10px;
+  }
+  
+  .form-label {
+    font-weight: bolder;
+    margin-top: 10px;
+    color: rgb(42, 41, 40);
+  }
+  
+  .wise {
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .wiseSpan {
+    color: rgb(113, 165, 136);
+  }
+  
+  @media (min-width: 768px) and (max-width: 900px) {
+    .addContainer {
+      width: 70%;
+    }
+  }
+  
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .addContainer {
+      width: 60%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .addContainer {
+      width: 50%;
+    }
+  }

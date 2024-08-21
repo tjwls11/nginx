@@ -1,0 +1,123 @@
+body {
+    font-family: "Nanum Pen Script";
+}
+  
+  .container {
+    height: 80px;
+    line-height: 80px;
+  }
+  /* 내비게이션 바*/
+  .nav-main {
+    font-size: 35px;
+    float: left;
+    margin-left: 10px;
+    color: forestgreen;
+  }
+  .nav-log {
+    list-style-type: none;
+    color: forestgreen;
+  }
+  
+  div.nav-log > h1 {
+    float: right;
+    margin-right: 25px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .navname {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding-left: 150px;
+  }
+  nav::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  /* 메인 소개 페이지*/
+  .hd {
+    position: relative;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .hd::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .box {
+    position: absolute;
+    left: 100px;
+    bottom: 80px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-bottom: 50px;
+    animation: text 1.5s ease-in;
+    border-radius: 10px;
+    color: #000;
+  }
+  /* box안에 있는 text 움직임 지정*/
+  @keyframes text {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+  /* 일기와 무드트래커 소개 페이지*/
+  .artc {
+    width: 960px;
+    height: 350px;
+    margin-left: 250px;
+  }
+  .card-img1 img {
+    position: relative;
+    left: 50px;
+    width: 100%;
+    height: 70%;
+    margin-right: 60px;
+  }
+  .card-img2 img {
+    position: relative;
+    right: 50px;
+    width: 100%;
+    height: 100%;
+    margin-left: 60px;
+  }
+  /* card-text1,card-text2,card-img1,card-img2를 각각의 상자라고 생각하고 배열을 지정함*/
+  .artc {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .card-text1 {
+    text-align: left;
+    margin-left: 60px;
+  }
+  .card-text2 {
+    text-align: right;
+    margin-right: 60px;
+  }
+  .font {
+    font-size: 50px;
+  }
